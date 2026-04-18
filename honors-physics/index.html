@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Honors Physics — Mr. Noblejas</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, serif;
+    background: #f8f6f1;
+    color: #1a1a2e;
+    min-height: 100vh;
+  }
+  header {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 36px 32px 28px;
+    border-bottom: 4px solid #e8b84b;
+  }
+  header h1 { font-size: 26px; letter-spacing: 0.02em; margin-bottom: 4px; }
+  header p { font-size: 13px; color: #a0aec0; font-family: Arial, sans-serif; }
+  .back {
+    display: inline-block; margin: 20px 32px 0;
+    font-size: 12px; font-family: Arial, sans-serif;
+    color: #2563eb; text-decoration: none;
+  }
+  .back:hover { text-decoration: underline; }
+  main { max-width: 900px; margin: 24px auto; padding: 0 24px 40px; }
+  .section-title {
+    font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.12em; color: #718096;
+    font-family: Arial, sans-serif;
+    margin: 32px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e2d9c8;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: #fff; border: 1px solid #e2d9c8;
+    border-radius: 10px; padding: 20px 18px;
+    text-decoration: none; color: inherit;
+    transition: all 0.18s; display: flex;
+    flex-direction: column; gap: 7px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  .card:hover {
+    border-color: #e8b84b;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    transform: translateY(-2px);
+  }
+  .card-icon { font-size: 26px; line-height: 1; }
+  .card-title { font-size: 15px; font-weight: bold; color: #1a1a2e; }
+  .card-desc { font-size: 12px; color: #718096; font-family: Arial, sans-serif; line-height: 1.5; }
+  .card-tag {
+    display: inline-block; font-size: 10px;
+    font-family: Arial, sans-serif; text-transform: uppercase;
+    letter-spacing: 0.08em; background: #f0ebdf;
+    color: #92733a; padding: 2px 7px;
+    border-radius: 20px; margin-top: 4px; align-self: flex-start;
+  }
+  .placeholder {
+    border: 1px dashed #cbd5e0; background: #fafafa;
+    color: #a0aec0; font-family: Arial, sans-serif;
+    font-size: 12px; border-radius: 10px;
+    padding: 20px 18px; font-style: italic;
+  }
+  footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #a0aec0;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #e2d9c8; margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🔬 Honors Physics</h1>
+  <p>Mr. Jeff Noblejas &mdash; St. Ignatius College Preparatory</p>
+</header>
+
+<a class="back" href="../index.html">← Back to All Courses</a>
+
+<main>
+
+  <div class="section-title">Mechanics</div>
+  <div class="grid">
+    <div class="placeholder">No simulations yet — coming soon</div>
+  </div>
+
+  <div class="section-title">Electricity &amp; Magnetism</div>
+  <div class="grid">
+    <a class="card" href="../electric-field/index.html">
+      <div class="card-icon">⚡</div>
+      <div class="card-title">Electric Field Lab</div>
+      <div class="card-desc">Place positive and negative charges and visualize field lines, vector arrows, and equipotential lines.</div>
+      <span class="card-tag">Interactive</span>
+    </a>
+    <div class="placeholder">More simulations coming soon</div>
+  </div>
+
+  <div class="section-title">Waves &amp; Optics</div>
+  <div class="grid">
+    <div class="placeholder">No simulations yet — coming soon</div>
+  </div>
+
+</main>
+
+<footer>
+  Mr. Jeff Noblejas &mdash; St. Ignatius College Preparatory
+</footer>
+
+</body>
+</html>
